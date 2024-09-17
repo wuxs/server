@@ -184,6 +184,7 @@ const Row: SFC<IRowProps> = observer(
                 </div>
             </TableCell>
             <TableCell>{name}</TableCell>
+            <TableCell>{key}</TableCell>
             <TableCell>
                 <CopyableSecret value={value} style={{display: 'flex', alignItems: 'center'}} />
             </TableCell>
